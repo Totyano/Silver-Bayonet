@@ -1,5 +1,5 @@
 
-waitUntil {!(isNull player) && time > 5};
+waitUntil {!isNull player};
 
 // allow players in leadership roles AND that are on opfor to whistle
 private _unitRole = typeOf player;

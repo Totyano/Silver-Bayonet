@@ -9,5 +9,9 @@ class CCE
     {
         class respawnVehicles{};
     };
-
+    class whistle
+    {
+        class addPlayerWhistle {};
+        class whistleServerBackend {};
+    };
 };
