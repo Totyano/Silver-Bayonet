@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=4524;
+		nextID=4525;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={16385.576,317.2659,7223.4829};
-		dir[]={-0.66185629,-0.45271748,-0.59768039};
-		up[]={-0.3360489,0.89162117,-0.30346289};
-		aside[]={-0.6702792,1.3683166e-006,0.74225926};
+		pos[]={11351.095,36.322685,6221.019};
+		dir[]={0.37382272,-0.51576459,0.77087188};
+		up[]={0.22504693,0.85673034,0.46407652};
+		aside[]={0.89978355,-1.4901161e-008,-0.43633652};
 	};
 };
 binarizationWanted=0;
@@ -4756,6 +4756,7 @@ class Mission
 			};
 			id=3703;
 			type="vn_b_air_f4b_navy_cas";
+			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15511,6 +15512,7 @@ class Mission
 			};
 			id=4444;
 			type="vn_o_wheeled_z157_02_nva65";
+			atlOffset=-7.8201294e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16444,7 +16446,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11340.73,22.917263,6264.2944};
-				angles[]={-0,2.0411451,0};
+				angles[]={0,2.0411451,0};
 			};
 			side="Empty";
 			flags=4;
@@ -16486,6 +16488,7 @@ class Mission
 			};
 			id=4512;
 			type="ACE_Box_82mm_Mo_Combo";
+			atlOffset=-0.00020027161;
 		};
 		class Item209
 		{
@@ -16550,6 +16553,7 @@ class Mission
 			};
 			id=4516;
 			type="ACE_Box_82mm_Mo_Combo";
+			atlOffset=-3.6239624e-005;
 		};
 		class Item213
 		{
@@ -16653,7 +16657,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11419.007,21.404001,6205.2153};
-				angles[]={-0,0,6.2731905};
+				angles[]={0,0,6.2731905};
 			};
 			side="Empty";
 			flags=4;

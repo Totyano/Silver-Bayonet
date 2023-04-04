@@ -12,6 +12,6 @@ class CCE
     class whistle
     {
         class addPlayerWhistle {};
-        class addPlayerWhistle {};
+        class whistleServerBackend {};
     };
 };

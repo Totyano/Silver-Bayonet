@@ -13,6 +13,11 @@ cmfVers = "CMF2 1.2.2";
 #include "CfgLoadouts.hpp"
 #include "c\params.hpp"
 
+class CfgSounds
+{
+	#include "functions\whistle\sounds\CfgSounds.hpp"
+};
+
 class CfgFunctions 
 { 
 	#include "CfgFunctions.hpp"
