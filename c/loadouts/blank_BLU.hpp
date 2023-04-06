@@ -11,20 +11,20 @@
 #define CAMO_HEADGEAR "vn_b_helmet_m1_07_01", "vn_b_helmet_m1_05_01", "vn_b_helmet_m1_04_01"
 // Rifle
 #define RIFLE "vn_m16_bayo"
-#define RIFLE_MAG "vn_m16_30_t_mag:5"
+#define RIFLE_MAG "vn_m16_20_t_mag:7"
 #define RIFLE_ATTACHMENTS "vn_b_m16"
 #define AR_ATTACHMENTS RIFLE_ATTACHMENTS, ""
 #define ALT_OPTICS 
 // GL Rifle
 #define GLRIFLE "vn_m16_m203"
-#define GLRIFLE_MAG "vn_m16_30_t_mag:5"
+#define GLRIFLE_MAG "vn_m16_20_t_mag:7"
 #define GLRIFLE_MAG_FLARE "UGL_FlareYellow_F:4"
-#define GLRIFLE_MAG_SMOKE "1Rnd_Smoke_Grenade_shell:6","1Rnd_SmokeRed_Grenade_shell:4","1Rnd_SmokeBlue_Grenade_shell:4",GLRIFLE_MAG_FLARE
-#define GLRIFLE_MAG_HE "1Rnd_HE_Grenade_shell:2"
+#define GLRIFLE_MAG_SMOKE "vn_40mm_m680_smoke_w_mag:6","vn_40mm_m682_smoke_r_mag:4","vn_40mm_m715_smoke_g_mag:4",GLRIFLE_MAG_FLARE
+#define GLRIFLE_MAG_HE "vn_40mm_m406_he_mag:2"
 
 // Carbine
 #define CARBINE "vn_m16_bayo"
-#define CARBINE_MAG "vn_m16_30_t_mag:5"
+#define CARBINE_MAG "vn_m16_20_t_mag:7"
 // AR
 #define AR "vn_m60"
 #define AR_MAG "vn_m60_100_mag:5"
@@ -73,7 +73,7 @@
 #define PISTOL "vn_m1911"
 #define PISTOL_MAG "vn_m1911_mag:3"
 // Grenades
-#define LEADER_GRENADES BASE_FRAG,LEADER_SMOKES,SIDE_CHEM_LIGHT
+#define LEADER_GRENADES BASE_FRAG,LEADER_SMOKES
 // Gear
 #define TOOLS BASE_TOOLS
 #define LEADER_TOOLS BASE_LEADER_TOOLS,SIDE_KEY
@@ -185,7 +185,7 @@ class xo {// XO
   backpackItems[] = {BASE_MEDICAL};
   weapons[] = {GLRIFLE};
   magazines[] = {GLRIFLE_MAG,GLRIFLE_MAG_HE,GLRIFLE_MAG_SMOKE,LEADER_GRENADES};
-  items[] = {LEADER_TOOLS,TOOLS};
+  items[] = {LEADER_TOOLS,TOOLS,RADIO_LR};
   linkedItems[] = {LINKED,LEADER_LINKED,BINOS};
   attachments[] = {RIFLE_ATTACHMENTS};
   opticChoices[] = {ALT_OPTICS};
@@ -203,9 +203,9 @@ class fac {// FAC
   uniform[] = {CAMO_UNIFORM};
   vest[] = {CAMO_VEST};
   backpack[] = {"vn_b_pack_trp_04_02_m16_pl"};
-  linkedItems[] = {LINKED,LEADER_LINKED,"CUP_LRTV"};
-  items[] += {LEADER_TOOLS,RADIO_LR};
-  backpackItems[] = {BASE_MEDICAL};
+  linkedItems[] = {LINKED,LEADER_LINKED,"CUP_LRTV",BINOS};
+  items[] += {LEADER_TOOLS,TOOLS,RADIO_LR};
+  backpackItems[] = {BASE_MEDICAL,LINKED};
 };
 
 

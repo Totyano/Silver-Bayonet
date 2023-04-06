@@ -165,6 +165,8 @@ class plt: sl {// Platoon Leader
 class coy: plt {// CO and PL
 };
 class xo: coy {// XO
+  items[] += {RADIO_LR};
+
 };
 class sgt: plt {// Platoon Sergeant
 };
