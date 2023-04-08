@@ -177,7 +177,7 @@ class uav: rifleman { //UAV
 class fac: coy {// FAC
  Backpack[] = {"vn_o_pack_t884_01"};
   magazines[] = {GLRIFLE_MAG,SIDE_FAC_GRENADES,PISTOL_MAG};
-  linkedItems[] = {LINKED,LEADER_LINKED,"CUP_LRTV"};
+  linkedItems[] = {LINKED,LEADER_LINKED,"CUP_LRTV",BINOS};
   items[] += {LEADER_TOOLS,RADIO_LR};
 };
 
